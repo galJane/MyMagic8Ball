@@ -30,6 +30,9 @@
                                 <state key="normal" title="Personalize Fortunes">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="PersonalButton:" destination="n56-zx-Prf" eventType="touchUpInside" id="8AU-qT-BUv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10m-8l-Zp6">
                                 <rect key="frame" x="20" y="530" width="374" height="42"/>
@@ -38,9 +41,12 @@
                                 <state key="normal" title="Tranditional Fortunes">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="traditionalButton:" destination="n56-zx-Prf" eventType="touchUpInside" id="OUo-8e-OTR"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="black-eight-billiard-ball-on-260nw-40916791" highlightedImage="black-eight-billiard-ball-on-260nw-40916791" translatesAutoresizingMaskIntoConstraints="NO" id="XZV-WC-Gt1">
-                                <rect key="frame" x="-24" y="0.0" width="462" height="995"/>
+                                <rect key="frame" x="-13" y="-18" width="462" height="995"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -49,10 +55,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="5Ru-Fx-Wvz"/>
                     <connections>
-                        <segue destination="PPN-3q-nhF" kind="presentation" id="IK9-Oj-NfN"/>
+                        <segue destination="PPN-3q-nhF" kind="presentation" identifier="personalOption" id="IK9-Oj-NfN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="n56-zx-Prf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="137.94642857142856"/>
         </scene>

@@ -17,7 +17,11 @@ class openingViewController: UIViewController {
     }
     
     
+    @IBAction func PersonalButton(_ sender: Any) {
+    }
     
+    @IBAction func traditionalButton(_ sender: Any) {
+    }
     
     
     
