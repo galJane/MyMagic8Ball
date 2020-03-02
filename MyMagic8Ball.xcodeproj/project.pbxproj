@@ -16,6 +16,7 @@
 		44830AB0240452D8001CDF50 /* MyMagic8BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830AAF240452D8001CDF50 /* MyMagic8BallTests.swift */; };
 		44830ABB240452D8001CDF50 /* MyMagic8BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830ABA240452D8001CDF50 /* MyMagic8BallUITests.swift */; };
 		44C612512405C1970069DF07 /* openingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C612502405C1970069DF07 /* openingViewController.swift */; };
+		719D9472240A0D890078E40A /* personalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D9471240A0D890078E40A /* personalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		44830ABA240452D8001CDF50 /* MyMagic8BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagic8BallUITests.swift; sourceTree = "<group>"; };
 		44830ABC240452D8001CDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C612502405C1970069DF07 /* openingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingViewController.swift; sourceTree = "<group>"; };
+		719D9471240A0D890078E40A /* personalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				44830AA3240452D7001CDF50 /* LaunchScreen.storyboard */,
 				44830AA6240452D7001CDF50 /* Info.plist */,
 				44C612502405C1970069DF07 /* openingViewController.swift */,
+				719D9471240A0D890078E40A /* personalViewController.swift */,
 			);
 			path = MyMagic8Ball;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				44C612512405C1970069DF07 /* openingViewController.swift in Sources */,
 				44830A99240452D4001CDF50 /* AppDelegate.swift in Sources */,
 				44830A9B240452D4001CDF50 /* SceneDelegate.swift in Sources */,
+				719D9472240A0D890078E40A /* personalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

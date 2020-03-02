@@ -18,6 +18,7 @@ class openingViewController: UIViewController {
     
     
     @IBAction func PersonalButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "personalOption", sender: self)
     }
     
     @IBAction func traditionalButton(_ sender: Any) {
