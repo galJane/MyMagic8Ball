@@ -10,21 +10,22 @@ import UIKit
 
 class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource,UITextFieldDelegate {
     
-    var count: Int = 0
-    var entries: String = "0"
+    var eNum: Int = 0
     var pf = [String]()
     var numChose = [String]()
     
-    @IBOutlet weak var entryText: UITextField?
-    @IBOutlet weak var numPicker: UIPickerView!
+    @IBOutlet weak var entryText: UITextField!
+    @IBOutlet weak var numPicker: UIPickerView!  //come here again
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.numPicker.dataSource = self
-        self.numPicker.delegate = self
+        
+        numPicker!.dataSource = self
+        numPicker!.delegate = self
         numChose = ["1","2","3","4","5","6","7","8","9","10"]
+        
         // Do any additional setup after loading the view.
-    }
+            }
     
     @IBAction func next(_ sender: Any) {
         self.performSegue(withIdentifier: "enterText", sender: self)
@@ -36,10 +37,12 @@ class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     
     @IBAction func textInteraction(_ sender: Any) {
-        for i in 0..<count{
-            pf.append((entryText?.text)!)
+        let mess: String = entryText.text!
+        let eNum: Int = Int(numChose[row])
+        for i in 0...eNum{
+            pf.append(mess)
         }
-        
+        print(pf)
     }
     
     // number of columns
@@ -55,9 +58,9 @@ class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         return numChose[row]
     }
     // capture the picker view selection
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        entries = numChose[row]
-        count = Int(entries)!
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) -> String {
+        return numChose[row]
+         // please come here again
     }
     // Clear text field
     //func textFieldShouldClear(_ entryText: UITextField) -> Bool{
