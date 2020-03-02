@@ -136,6 +136,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="entryInput:" destination="Ema-df-wd0" eventType="editingDidEnd" id="dxj-BE-nvm"/>
+                                    <action selector="textInteraction:" destination="Big-Wl-oIG" eventType="editingDidEnd" id="Pme-4n-BaX"/>
                                 </connections>
                             </textField>
                         </subviews>

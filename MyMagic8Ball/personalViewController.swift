@@ -8,9 +8,10 @@
 
 import UIKit
 
-class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
+class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource,UITextFieldDelegate {
     
-    var entries: Int = 1
+    var count: Int = 0
+    var entries: String = "0"
     var pf = [String]()
     var numChose = [String]()
     
@@ -19,7 +20,6 @@ class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.numPicker.dataSource = self
         self.numPicker.delegate = self
         numChose = ["1","2","3","4","5","6","7","8","9","10"]
@@ -28,14 +28,18 @@ class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     @IBAction func next(_ sender: Any) {
         self.performSegue(withIdentifier: "enterText", sender: self)
-        for i in 0..<entries {
-            pf.append(entryText.text)
-        }
-        print(pf)
     }
     
     @IBAction func inputHome(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func textInteraction(_ sender: Any) {
+        for i in 0..<count{
+            pf.append((entryText?.text)!)
+        }
+        
     }
     
     // number of columns
@@ -52,12 +56,13 @@ class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
     // capture the picker view selection
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        entries = Int(numChose[row])!
+        entries = numChose[row]
+        count = Int(entries)!
     }
     // Clear text field
-    func textFieldShouldClear(_ entryText: UITextField) -> Bool{
-        return entryText.text == nil
-    }
+    //func textFieldShouldClear(_ entryText: UITextField) -> Bool{
+       // return entryText.text == nil
+    //}
 
     /*
     // MARK: - Navigation
