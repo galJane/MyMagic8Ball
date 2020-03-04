@@ -38,7 +38,7 @@ class personalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     @IBAction func textInteraction(_ sender: Any) {
         let mess: String = entryText.text!
-        let eNum: Int = Int(numChose[row])
+        //let eNum: Int = Int(numChose[row])
         for i in 0...eNum{
             pf.append(mess)
         }

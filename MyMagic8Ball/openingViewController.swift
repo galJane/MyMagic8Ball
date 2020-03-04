@@ -22,6 +22,7 @@ class openingViewController: UIViewController {
     }
     
     @IBAction func traditionalButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "tranditionSegue", sender: self)
     }
     
     

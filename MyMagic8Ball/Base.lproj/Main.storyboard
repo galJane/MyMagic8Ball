@@ -54,12 +54,41 @@
                     <navigationItem key="navigationItem" id="5Ru-Fx-Wvz"/>
                     <connections>
                         <segue destination="PPN-3q-nhF" kind="presentation" identifier="personalOption" id="IK9-Oj-NfN"/>
+                        <segue destination="lvc-Hw-sGl" kind="presentation" identifier="tranditionSegue" id="V52-D1-vye"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="n56-zx-Prf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="137.94642857142856"/>
+        </scene>
+        <!--Trandition View Controller-->
+        <scene sceneID="kOu-Rm-e6A">
+            <objects>
+                <viewController id="qy3-Pi-31i" customClass="tranditionViewController" customModule="MyMagic8Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OOa-E7-1Cr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sample" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHW-M1-FkW">
+                                <rect key="frame" x="20" y="404" width="374" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0rT-oE-6J4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aAJ-AK-gBl"/>
+                    <connections>
+                        <outlet property="outputLabel" destination="RHW-M1-FkW" id="Tn6-KJ-KdT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2X9-tQ-UBl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2821.739130434783" y="531.69642857142856"/>
         </scene>
         <!--Personal View Controller-->
         <scene sceneID="5Ng-Fx-F9O">
@@ -112,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lLp-Wz-vTI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2798.5507246376815" y="137.94642857142856"/>
+            <point key="canvasLocation" x="2800" y="-121"/>
         </scene>
         <!--Personal View Controller-->
         <scene sceneID="JWk-of-1B9">
@@ -151,7 +180,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eyw-Rf-tTP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Ema-df-wd0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4548" y="138"/>
+            <point key="canvasLocation" x="4520" y="-121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lR7-QK-qRY">
@@ -170,7 +199,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LbQ-cf-PXl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1889.8550724637682" y="137.94642857142856"/>
+            <point key="canvasLocation" x="1903" y="-121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ilh-Mi-fAA">
@@ -191,7 +220,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMQ-mH-zik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3616" y="138"/>
+            <point key="canvasLocation" x="3581" y="-121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UG7-Ou-Hmn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lvc-Hw-sGl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZsQ-sU-MbO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qy3-Pi-31i" kind="relationship" relationship="rootViewController" id="BI2-pc-lts"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMr-5F-Y06" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1913.0434782608697" y="531.69642857142856"/>
         </scene>
     </scenes>
 </document>
