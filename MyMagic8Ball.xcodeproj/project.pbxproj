@@ -9,15 +9,14 @@
 /* Begin PBXBuildFile section */
 		44830A99240452D4001CDF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830A98240452D4001CDF50 /* AppDelegate.swift */; };
 		44830A9B240452D4001CDF50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830A9A240452D4001CDF50 /* SceneDelegate.swift */; };
-		44830A9D240452D4001CDF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830A9C240452D4001CDF50 /* ViewController.swift */; };
 		44830AA0240452D4001CDF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44830A9E240452D4001CDF50 /* Main.storyboard */; };
 		44830AA2240452D7001CDF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44830AA1240452D7001CDF50 /* Assets.xcassets */; };
 		44830AA5240452D7001CDF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44830AA3240452D7001CDF50 /* LaunchScreen.storyboard */; };
 		44830AB0240452D8001CDF50 /* MyMagic8BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830AAF240452D8001CDF50 /* MyMagic8BallTests.swift */; };
 		44830ABB240452D8001CDF50 /* MyMagic8BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830ABA240452D8001CDF50 /* MyMagic8BallUITests.swift */; };
 		44C612512405C1970069DF07 /* openingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C612502405C1970069DF07 /* openingViewController.swift */; };
+		7114FAEE2419B06400C00889 /* personalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7114FAED2419B06400C00889 /* personalViewController.swift */; };
 		7158CEC2241030E2009365FD /* tranditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158CEC1241030E2009365FD /* tranditionViewController.swift */; };
-		719D9472240A0D890078E40A /* personalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D9471240A0D890078E40A /* personalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		44830A95240452D4001CDF50 /* MyMagic8Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMagic8Ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44830A98240452D4001CDF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44830A9A240452D4001CDF50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44830A9C240452D4001CDF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44830A9F240452D4001CDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44830AA1240452D7001CDF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44830AA4240452D7001CDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +51,8 @@
 		44830ABA240452D8001CDF50 /* MyMagic8BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMagic8BallUITests.swift; sourceTree = "<group>"; };
 		44830ABC240452D8001CDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C612502405C1970069DF07 /* openingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingViewController.swift; sourceTree = "<group>"; };
+		7114FAED2419B06400C00889 /* personalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalViewController.swift; sourceTree = "<group>"; };
 		7158CEC1241030E2009365FD /* tranditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tranditionViewController.swift; sourceTree = "<group>"; };
-		719D9471240A0D890078E40A /* personalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +105,13 @@
 			children = (
 				44830A98240452D4001CDF50 /* AppDelegate.swift */,
 				44830A9A240452D4001CDF50 /* SceneDelegate.swift */,
-				44830A9C240452D4001CDF50 /* ViewController.swift */,
 				44830A9E240452D4001CDF50 /* Main.storyboard */,
 				44830AA1240452D7001CDF50 /* Assets.xcassets */,
 				44830AA3240452D7001CDF50 /* LaunchScreen.storyboard */,
 				44830AA6240452D7001CDF50 /* Info.plist */,
 				44C612502405C1970069DF07 /* openingViewController.swift */,
-				719D9471240A0D890078E40A /* personalViewController.swift */,
 				7158CEC1241030E2009365FD /* tranditionViewController.swift */,
+				7114FAED2419B06400C00889 /* personalViewController.swift */,
 			);
 			path = MyMagic8Ball;
 			sourceTree = "<group>";
@@ -269,11 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7158CEC2241030E2009365FD /* tranditionViewController.swift in Sources */,
-				44830A9D240452D4001CDF50 /* ViewController.swift in Sources */,
 				44C612512405C1970069DF07 /* openingViewController.swift in Sources */,
 				44830A99240452D4001CDF50 /* AppDelegate.swift in Sources */,
 				44830A9B240452D4001CDF50 /* SceneDelegate.swift in Sources */,
-				719D9472240A0D890078E40A /* personalViewController.swift in Sources */,
+				7114FAEE2419B06400C00889 /* personalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,10 @@ class tranditionViewController: UIViewController {
         outputLabel.text = randomReponses
     }
     
+    @IBAction func homebuttonT(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
     }
     
