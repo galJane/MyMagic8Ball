@@ -29,8 +29,8 @@ class personalViewController: UIViewController,UITextFieldDelegate {
         return true
     }
     func saveToArray() {
-        let SE = self.entryText.text ?? "Try Again"
-        self.entries.append(SE)
+        let SE = self.entryText.text
+        self.entries.append(SE!)
     }
     
     @IBAction func homebutton(_ sender: Any) {
