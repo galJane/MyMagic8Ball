@@ -22,11 +22,11 @@ class openingViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
+    // Transfer to personal View controller
     @IBAction func PersonalButton(_ sender: Any) {
         self.performSegue(withIdentifier: "personalOption", sender: self)
     }
-    
+    // Transfer to trandition view Controller
     @IBAction func traditionalButton(_ sender: Any) {
         self.performSegue(withIdentifier: "tranditionSegue", sender: self)
     }
