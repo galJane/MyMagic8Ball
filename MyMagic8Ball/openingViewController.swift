@@ -7,6 +7,12 @@
 //
 
 import UIKit
+/* USER MANUAL
+  On the opening screen it will show two options, Personal and Traditional Fortunes:
+  Personal options will let you add your own text entry to add to the magic-8 ball. Press enter after each text entry to submit it. Repeat until you put in all your text entries, then submit. The next screen will ask you to shake your phone to reveal a fortune. Press the home button to go back to the start menu.
+  Traditional options will take you to take straight to the magic 8 ball screen for you can shake your phone to reveal one of the original magic 8 ball fortunes. Press the home button to go back to the start menu.
+ 
+*/
 
 class openingViewController: UIViewController {
 
@@ -24,22 +30,7 @@ class openingViewController: UIViewController {
     @IBAction func traditionalButton(_ sender: Any) {
         self.performSegue(withIdentifier: "tranditionSegue", sender: self)
     }
-    //@IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
-    //}
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
     /*
     // MARK: - Navigation
 

@@ -16,7 +16,9 @@
 		44830AB0240452D8001CDF50 /* MyMagic8BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830AAF240452D8001CDF50 /* MyMagic8BallTests.swift */; };
 		44830ABB240452D8001CDF50 /* MyMagic8BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44830ABA240452D8001CDF50 /* MyMagic8BallUITests.swift */; };
 		44C612512405C1970069DF07 /* openingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C612502405C1970069DF07 /* openingViewController.swift */; };
+		710E789C24571BFD0011FFC9 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 710E789B24571BFD0011FFC9 /* Sound */; };
 		7114FAEE2419B06400C00889 /* personalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7114FAED2419B06400C00889 /* personalViewController.swift */; };
+		712126E524570CE100168467 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712126E424570CE100168467 /* AVFoundation.framework */; };
 		7158CEC2241030E2009365FD /* tranditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158CEC1241030E2009365FD /* tranditionViewController.swift */; };
 		716A637524259C4A003B51E9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 716A637424259C4A003B51E9 /* Podfile */; };
 /* End PBXBuildFile section */
@@ -54,7 +56,10 @@
 		44830ABC240452D8001CDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C612502405C1970069DF07 /* openingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingViewController.swift; sourceTree = "<group>"; };
 		63311AFD5853149BA2F2CCB8 /* Pods-MyMagic8Ball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMagic8Ball.debug.xcconfig"; path = "Target Support Files/Pods-MyMagic8Ball/Pods-MyMagic8Ball.debug.xcconfig"; sourceTree = "<group>"; };
+		710E789B24571BFD0011FFC9 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
+		710E789D24571C1E0011FFC9 /* sms-alert-5-daniel_simon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sms-alert-5-daniel_simon.mp3"; sourceTree = "<group>"; };
 		7114FAED2419B06400C00889 /* personalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalViewController.swift; sourceTree = "<group>"; };
+		712126E424570CE100168467 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7158CEC1241030E2009365FD /* tranditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tranditionViewController.swift; sourceTree = "<group>"; };
 		716A637424259C4A003B51E9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		93C084AF2333913212629A14 /* Pods-MyMagic8Ball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMagic8Ball.release.xcconfig"; path = "Target Support Files/Pods-MyMagic8Ball/Pods-MyMagic8Ball.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712126E524570CE100168467 /* AVFoundation.framework in Frameworks */,
 				0B10498B614AF52E2CF96992 /* Pods_MyMagic8Ball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +119,8 @@
 		44830A97240452D4001CDF50 /* MyMagic8Ball */ = {
 			isa = PBXGroup;
 			children = (
+				710E789D24571C1E0011FFC9 /* sms-alert-5-daniel_simon.mp3 */,
+				710E789B24571BFD0011FFC9 /* Sound */,
 				44830A98240452D4001CDF50 /* AppDelegate.swift */,
 				44830A9A240452D4001CDF50 /* SceneDelegate.swift */,
 				44830A9E240452D4001CDF50 /* Main.storyboard */,
@@ -156,6 +164,7 @@
 		D8FBB252BD0226637DA02A97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				712126E424570CE100168467 /* AVFoundation.framework */,
 				FA9A83208B8A35D4FDD20D12 /* Pods_MyMagic8Ball.framework */,
 			);
 			name = Frameworks;
@@ -267,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710E789C24571BFD0011FFC9 /* Sound in Resources */,
 				44830AA5240452D7001CDF50 /* LaunchScreen.storyboard in Resources */,
 				44830AA2240452D7001CDF50 /* Assets.xcassets in Resources */,
 				716A637524259C4A003B51E9 /* Podfile in Resources */,
