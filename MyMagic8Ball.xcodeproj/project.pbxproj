@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -150,7 +150,6 @@
 				63311AFD5853149BA2F2CCB8 /* Pods-MyMagic8Ball.debug.xcconfig */,
 				93C084AF2333913212629A14 /* Pods-MyMagic8Ball.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

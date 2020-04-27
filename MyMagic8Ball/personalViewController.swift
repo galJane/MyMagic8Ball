@@ -9,8 +9,7 @@
 import UIKit
 
 class personalViewController: UIViewController,UITextFieldDelegate {
-    
-    @IBOutlet weak var personalLabel: UILabel!
+
     @IBOutlet weak var entryText: UITextField!
     var entries = [String]()
     
@@ -33,18 +32,25 @@ class personalViewController: UIViewController,UITextFieldDelegate {
         self.entries.append(SE!)
     }
     
-    @IBAction func homebutton(_ sender: Any) {
+    
+    @IBAction func home(_ sender: Any) {
         entries.removeAll()
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "revealSegue"
+        {
+            //let per = segue.destination as! UINavigationController
+            let rev = segue.destination as! tranditionViewController
+            rev.entries = entries
+        }
     }
     // Display random gen
     @IBAction func nextToDisplay(_ sender: Any) {
         self.performSegue(withIdentifier: "revealSegue", sender: self)
     }
-    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        let randomPersonal = entries.randomElement()
-        personalLabel.text = randomPersonal
-    }
+    
     
     
     

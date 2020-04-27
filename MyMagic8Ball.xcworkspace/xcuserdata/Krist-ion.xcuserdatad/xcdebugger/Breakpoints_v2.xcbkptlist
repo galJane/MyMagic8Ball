@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A282342-37AB-4E9B-B6F8-417E2E18C753"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMagic8Ball/personalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "personalViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11 - 29a02d17c6a5a0aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMagic8Ball.personalViewController.entryText.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "MyMagic8Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krist-ion/Desktop/MyMagic8Ball/MyMagic8Ball/personalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11 - 6ea1b56d30679cb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMagic8Ball.personalViewController.entryText.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "MyMagic8Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krist-ion/Desktop/MyMagic8Ball/MyMagic8Ball/personalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11 - ff372c8f8ea845a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMagic8Ball.personalViewController.entryText.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "MyMagic8Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krist-ion/Desktop/MyMagic8Ball/MyMagic8Ball/personalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11 - 99851df8d033d644"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMagic8Ball.personalViewController.entryText.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyMagic8Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krist-ion/Desktop/MyMagic8Ball/MyMagic8Ball/personalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11 - b5fa2a17620cf5d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMagic8Ball.personalViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyMagic8Ball.personalViewController"
+                  moduleName = "MyMagic8Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krist-ion/Desktop/MyMagic8Ball/MyMagic8Ball/personalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "F373BA9E-4C67-45D6-A5B7-B29A48D20C11 - 945abf9af9343896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMagic8Ball.personalViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyMagic8Ball.personalViewController&gt;"
+                  moduleName = "MyMagic8Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krist-ion/Desktop/MyMagic8Ball/MyMagic8Ball/personalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

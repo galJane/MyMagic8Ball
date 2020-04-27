@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1p4-Pb-UqJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,36 +15,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Magic 8-Ball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPV-fW-aJC">
-                                <rect key="frame" x="94" y="128" width="226" height="40"/>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="black-eight-billiard-ball-on-260nw-40916791" translatesAutoresizingMaskIntoConstraints="NO" id="mz8-xH-f42">
+                                <rect key="frame" x="-29" y="14" width="443" height="982"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.090842309149999995" green="0.20434793079999999" blue="0.90836572650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Magic 8 Ball" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6a-U2-yvp">
+                                <rect key="frame" x="91" y="185" width="233" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBh-uQ-9Ba">
-                                <rect key="frame" x="20" y="367" width="374" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhI-Jl-Ptu">
+                                <rect key="frame" x="91" y="387" width="233" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.090842309149999995" green="0.20434793079999999" blue="0.90836572650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Personalize Fortunes">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.1413900223" green="0.1140432495" blue="0.46519603780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Personal Fortunes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.1413900223" green="0.1140432495" blue="0.46519603780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="PersonalButton:" destination="n56-zx-Prf" eventType="touchUpInside" id="8AU-qT-BUv"/>
-                                    <action selector="PersonalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r2Q-gc-wRW"/>
+                                    <action selector="PersonalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUa-DZ-YJf"/>
+                                    <segue destination="LKN-Ys-GQA" kind="presentation" identifier="personalOption" id="kkA-t8-Ibg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10m-8l-Zp6">
-                                <rect key="frame" x="20" y="530" width="374" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtj-4v-jCC">
+                                <rect key="frame" x="91" y="502" width="233" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.090842309149999995" green="0.20434793079999999" blue="0.90836572650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Tranditional Fortunes">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.1413900223" green="0.1140432495" blue="0.46519603780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Traditional Fortunes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="traditionalButton:" destination="n56-zx-Prf" eventType="touchUpInside" id="OUo-8e-OTR"/>
-                                    <action selector="traditionalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chh-qN-sLU"/>
+                                    <action selector="traditionalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Hp-sD-otO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,14 +61,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="5Ru-Fx-Wvz"/>
                     <connections>
-                        <segue destination="lvc-Hw-sGl" kind="presentation" identifier="tranditionSegue" id="V52-D1-vye"/>
-                        <segue destination="1p4-Pb-UqJ" kind="presentation" identifier="personalOption" id="gsd-Wo-s9I"/>
+                        <segue destination="qy3-Pi-31i" kind="presentation" identifier="tranditionSegue" id="fdj-ny-JyR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <exit id="n56-zx-Prf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="137.94642857142856"/>
+            <point key="canvasLocation" x="1911.594202898551" y="-167.41071428571428"/>
         </scene>
         <!--Personal View Controller-->
         <scene sceneID="2Q3-mJ-qkD">
@@ -70,88 +76,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter you personal entries below:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7d-Wt-j8t">
-                                <rect key="frame" x="80" y="202" width="254" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press return after each text entry, once done press next" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-BX-DG6">
+                                <rect key="frame" x="-34" y="231" width="483" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press return after each text entry, once done press next" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-BX-DG6">
-                                <rect key="frame" x="20" y="231" width="425" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" " borderStyle="roundedRect" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSC-JI-TiA">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  " borderStyle="roundedRect" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSC-JI-TiA">
                                 <rect key="frame" x="59" y="291" width="275" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sja-Li-g8y">
+                                <rect key="frame" x="362" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextToDisplay:" destination="LKN-Ys-GQA" eventType="touchUpInside" id="lYf-3y-s1e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boa-eC-L4z">
+                                <rect key="frame" x="51" y="28" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="home:" destination="LKN-Ys-GQA" eventType="touchUpInside" id="uh4-bV-KFn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter you personal entries below:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7d-Wt-j8t">
+                                <rect key="frame" x="-15" y="211" width="445" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XfM-qi-DTp"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jvr-z3-uQO">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="r4k-Oi-Jaa">
-                            <connections>
-                                <action selector="homebutton:" destination="LKN-Ys-GQA" id="XFG-dL-dTN"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="6wk-WK-CMl">
-                            <connections>
-                                <action selector="nextToDisplay:" destination="LKN-Ys-GQA" id="iba-yK-Vxj"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
                         <outlet property="entryText" destination="VSC-JI-TiA" id="ilO-GV-aue"/>
-                        <segue destination="1mv-m9-3fl" kind="presentation" identifier="revealSegue" id="jHx-Jc-Dlh"/>
+                        <segue destination="qy3-Pi-31i" kind="presentation" identifier="revealSegue" id="Ezh-nh-iZs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sBo-an-bWL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2821.739130434783" y="-167.41071428571428"/>
-        </scene>
-        <!--Personal View Controller-->
-        <scene sceneID="N8b-hi-PTr">
-            <objects>
-                <viewController id="oki-rc-43P" customClass="personalViewController" customModule="MyMagic8Ball" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ORg-bq-SGT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="magic-8-ball-png-3" translatesAutoresizingMaskIntoConstraints="NO" id="Ocj-c0-3wF">
-                                <rect key="frame" x="0.0" y="184" width="414" height="510"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEW-Ke-cCo">
-                                <rect key="frame" x="186" y="429" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <viewLayoutGuide key="safeArea" id="IAI-F8-foK"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Q34-n5-EjM">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="n9y-tY-a4h">
-                            <connections>
-                                <action selector="homebutton:" destination="oki-rc-43P" id="FgG-zH-NDr"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="personalLabel" destination="HEW-Ke-cCo" id="S45-Zh-FNq"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B7g-ju-ZOM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4497.1014492753629" y="-171.42857142857142"/>
         </scene>
         <!--Trandition View Controller-->
         <scene sceneID="kOu-Rm-e6A">
@@ -197,17 +170,18 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="type" value="fadeIn"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQ9-8F-RVU">
+                                <rect key="frame" x="32" y="25" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="homebuttonT:" destination="qy3-Pi-31i" eventType="touchUpInside" id="DsE-id-imw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="0rT-oE-6J4"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aAJ-AK-gBl">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="GGF-iA-zBM">
-                            <connections>
-                                <action selector="homebuttonT:" destination="qy3-Pi-31i" id="wpK-cg-v82"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
                         <outlet property="animationView" destination="Ffa-38-7e7" id="0rR-r4-Qpr"/>
                         <outlet property="outputLabel" destination="SHH-0q-17G" id="sWw-4f-f8l"/>
@@ -215,25 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2X9-tQ-UBl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2821.739130434783" y="531.69642857142856"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="UG7-Ou-Hmn">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lvc-Hw-sGl" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZsQ-sU-MbO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="qy3-Pi-31i" kind="relationship" relationship="rootViewController" id="BI2-pc-lts"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fMr-5F-Y06" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1913.0434782608697" y="531.69642857142856"/>
+            <point key="canvasLocation" x="2365" y="655"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ktz-Yy-Nwb">
@@ -241,38 +197,25 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1p4-Pb-UqJ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M7d-dV-91a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="LKN-Ys-GQA" kind="relationship" relationship="rootViewController" id="BJG-pp-qyn"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FgC-uB-BVQ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izh-fn-9xt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1913" y="-167"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="nhP-gc-5Ve">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1mv-m9-3fl" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KZ8-M0-jcW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="oki-rc-43P" kind="relationship" relationship="rootViewController" id="mOZ-b5-hgS"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="duv-HG-3ea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3586.9565217391305" y="-171.42857142857142"/>
+            <point key="canvasLocation" x="988" y="-167"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="fdj-ny-JyR"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="black-eight-billiard-ball-on-260nw-40916791" width="390" height="280"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="magic-8-ball-png-3" width="350" height="350"/>
     </resources>
 </document>
